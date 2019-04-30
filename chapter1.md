@@ -1,12 +1,8 @@
 # django filter another model
 
-
-
 refer to [https://docs.djangoproject.com/en/2.2/ref/models/lookups/](https://docs.djangoproject.com/en/2.2/ref/models/lookups/)
 
-
-
-first need use foreign key 
+first need use foreign key
 
 ```
 class Bbb(models.Model):
@@ -22,14 +18,12 @@ and for here
 Test.objects.filter(xxx__b_index=30)
 ```
 
-
-
 Note that
 
-using another model 
+using another model
 
 * use foreignkey 
-* '_' contain this string to connect Model_\_\_field= xxx
+* '_' contain this string  \_\_ to connect Model_\_\_field= xxx
 
 
 
