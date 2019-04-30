@@ -23,7 +23,7 @@ Note that
 using another model
 
 * use foreignkey 
-* '_' contain this string  \_\_\_ to connect Model_\_\_field= xxx
+* '_' contain this string  _\_\_ to connect Model_\_\_field= xxx
 
 
 
