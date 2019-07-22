@@ -20,9 +20,7 @@ finally try
 ./manage.py migrate
 ```
 
-NOTE that the error message cause that when migrate what that no changed .
+NOTE that the error message cause that when migrate what that nothing changed .
 
 I think that reason is i  droped database and recreate before migrate.
-
-
 
