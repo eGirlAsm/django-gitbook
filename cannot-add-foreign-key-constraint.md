@@ -24,3 +24,5 @@ NOTE that the error message cause that when migrate what that nothing changed .
 
 I think that reason is i  droped database and recreate before migrate.
 
+so after recreate database i mean you force truncate the database, then need **delete migrations file** or **makemigrations** to let the project had some changes.
+
